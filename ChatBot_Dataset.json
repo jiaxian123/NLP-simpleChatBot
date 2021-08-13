@@ -1,0 +1,535 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+	 "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+	 "context": [""]
+        },
+	{"tag": "Mbalness",
+         "patterns": ["M shape hair", "finer" , "shorter" , "thinner"],
+         "responses": ["Your symptoms is Male-pattern Baldness"],
+	 "context": [""]
+        },
+	{"tag": "WSD",
+         "patterns": ["How can I prevent baldness?", "Way to prevent baldness", "How can I prevent Hair loss?"],
+         "responses": ["you can do to prevent hair loss is to take charge of stress"],
+	 "context": [""]
+        },
+	{"tag": "Supplement",
+         "patterns": ["supplement to prevent Baldness", "What should I eat to prevent Baldness"],
+         "responses": ["a diet high in healthy proteins, Omega-3 fatty acids, and fresh fruits and vegetables.", "you can take vitamins such as iron, biotin, vitamin D, vitamin C, and zinc"],
+	 "context": [""]
+        },
+	{"tag": "HCT",
+         "patterns": ["Hair care tips"],
+         "responses": ["Wear a hat when you go outside. Too much sun exposure can damage your hair", "Don’t smoke. It damages hair follicles and can speed up hair loss."],
+	 "context": [""]
+        },
+	{"tag": "Wbalness",
+         "patterns": ["thinning","widening","see-through area at the top of scalp"],
+         "responses": ["Your Symptoms is Female-pattern Baldness"],
+	 "context": [""]
+        },
+	{"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Baldness Chatbot.", "I'm Baldness Chatbot!"],
+         "context": [""]
+        },
+	{"tag": "hours",
+         "patterns": ["when are you open", "what are your hours", "hours of operation"],
+         "responses": ["I am open 24 X 7 !"],
+         "context": [""]
+        },
+	{"tag": "TFFB",
+         "patterns": ["Treatment for female-pattern baldness"],
+         "responses": ["You can use minoxidil, Minoxidil (Rogaine) is the only drug approved by the U. S. Food and Drug Administration (FDA) to treat female pattern baldness"],
+         "context": [""]
+        },
+	{"tag": "TFMB",
+         "patterns": ["Treatment for male-pattern baldness"],
+         "responses": ["You can use Finasteride (Propecia, Proscar), a pill that interferes with the production of a highly active form of testosterone that is linked to baldness. It slows hair loss. It works slightly better than minoxidil. Hair loss returns when you stop using this medicine."],
+         "context": [""]
+        },
+	{"tag": "Cause",
+         "patterns": ["Drop 50 to 100 hair"],
+         "responses": ["People typically lose 50 to 100 hairs a day. This usually isn't noticeable because new hair is growing in at the same time. Hair loss occurs when new hair doesn't replace the hair that has fallen out."],
+         "context": [""]
+        },
+	{"tag": "doctor",
+         "patterns": ["Should I go see doctor?","When should I see the doctor"],
+         "responses": ["swelling around the areas of baldness", "excessive itchiness or scaling around balding areas", "burning, stinging, or pus discharge around balding areas","sudden hair loss on other parts of your body"],
+         "context": [""]
+        },
+	{"tag": "wihl",
+         "patterns": ["What are the meaning of hair loss"],
+         "responses": ["Hair loss, also called alopecia, can start at almost any age as you enter adulthood."],
+         "context": [""]
+        },
+	{
+			"tag": "baldness",
+			"patterns": ["What is baldness"],
+			"responses": ["Baldness usually refers to excessive hair loss on the scalp. Hereditary hair loss with age is the most common cause of baldness."],
+			"context": [""]
+		},
+		{
+			"tag": "deal",
+			"patterns": ["How do people deal with baldness", "How people deal with hair loss"],
+			"responses": ["Some people prefer to let their hair loss run its course untreated and unhidden. Others may cover it up with hairstyles, makeup, hats or scarves. And still others choose one of the treatments available to prevent further hair loss or restore growth."],
+			"context": [""]
+		},
+		{
+			"tag": "sypmtoms",
+			"patterns": ["What are the symptoms of hair loss", "What are the symptoms of baldness"],
+			"responses": ["The symptoms of hair loss are gradual thinning on top of head, circular or patchy bald spots, patches of scaling that spread over the scalp."],
+			"context": [""]
+		},
+		{
+			"tag": "signs",
+			"patterns": ["What are the signs of hair loss", "What are the signs of baldness"],
+			"responses": ["The signs of hair loss are sudden loosening of hair and full-body hair loss."],
+			"context": [""]
+		},
+		{
+			"tag": "hairline",
+			"patterns": ["receding hairline", "frontal fibrosing alopecia"],
+			"responses": ["You should talk with your doctor about early treatment to avoid significant permanent baldness."],
+			"context": [""]
+		},
+		{
+			"tag": "factors",
+			"patterns": ["What are the factors of baldness", "factors of hair loss"],
+			"responses": ["The factors include family history, hormonal changes and medical conditions, side effect of medications and supplements, radiation therapy to the head, stressful event, excessive hairstyling."],
+			"context": [""]
+		},
+		{
+			"tag": "riskFactors",
+			"patterns": ["What are the risk factors", "What will increase the risk of hair loss", "risk factors"],
+			"responses": ["The risk factors include age, significant weight loss, certain medical conditions, such as diabetes and lupus, stress, poor nutrition."],
+			"context": [""]
+		},
+		{
+			"tag": "notPreventable",
+			"patterns": ["Is hair loss preventable", "What type of hair loss is not preventable"],
+			"responses": ["Most baldness is caused by genetics (male-pattern baldness and female-pattern baldness). This type of hair loss is not preventable."],
+			"context": [""]
+		},
+		{
+			"tag": "avoid",
+			"patterns": ["How to avoid preventable hair loss", "preventable baldness"],
+			"responses": ["Avoid harsh treatments such as hot rollers, curling irons, hot-oil treatments and permanents.", "Limit the tension on hair from styles that use rubber bands, barrettes and braids.", "Protect your hair from sunlight and other sources of ultraviolet light.", "Stop smoking. Some studies show an association between smoking and baldness in men.", "Ask your doctor about medications and supplements you take that might cause hair loss."],
+			"context": [""]
+		},
+		{
+			"tag": "surgery",
+			"patterns": ["What are surgical procedures to treat baldness.", "Surgery to treat hair loss"],
+			"responses": ["The surgical procedures include Hair Transplant Surgery or Scalp Reduction. These surgical remedies for baldness tend to be expensive, and they carry risks including bleeding, wide scars, infection, patchy hair growth."],
+			"context": [""]
+		},
+		{
+			"tag": "products",
+			"patterns": ["What are the products that can affect hairloss", "What are the tools that can affect hairloss"],
+			"responses": ["The products and tools that will affect hair loss include blow dryers, heated combs, hair straighteners, colouring products, bleaching agents, relaxers, perms."],
+			"context": [""]
+		},
+		{
+			"tag": "women",
+			"patterns": ["Which women are more likely to experience hair loss"],
+			"responses": ["Women older than 40, women who have just had babies, women who often have hairstyles that pull on the hair and menopausal women are more likely to experience hair loss."],
+			"context": [""]
+		},
+		{
+			"tag": "myths",
+			"patterns": ["What are the myths about hair loss", "What are the myths about baldness"],
+			"responses": ["If you shave your head, your hair will grow back twice as thick.", "You’re losing hair because you shampoo it too much, or because you’ve colored it or gotten a perm.", "If you stand on your head you’ll increase circulation, stimulating hair growth.", "If you brush your hair 100 strokes a day that will make your hair healthier."],
+			"context": [""]
+		},
+		{
+			"tag": "doctorType",
+			"patterns": ["What type of doctors treat hairloss"],
+			"responses": ["A family physician, internist, or gynecologist can perform a basic health screening. Dermatologists are doctors who specialize in problems of skin, hair, and nails and may provide more advanced diagnosis and treatment of hair thinning and loss. Sometimes a scalp biopsy may be necessary"],
+			"context": [""]
+		},
+		{
+			"tag": "itchy",
+			"patterns": ["Can itchy scalp cause hair loss"],
+			"responses": ["Itchy scalp may be a symptom of a scalp disease that could produce hair loss. Causes may include seborrheic dermatitis (dandruff) and psoriasis. Treatments may include medicated shampoos like ketoconazole (Nizoral), OTC dandruff shampoos, and topical steroid creams and lotions to help decrease itching."],
+			"context": [""]
+		},
+		{
+			"tag": "menAge",
+			"patterns": ["At what age do men start losing hair?", "Age of man start experience hair loss"],
+			"responses": ["According to the American Hair Loss Association, approximately 25 percent of men who have hereditary male pattern baldness start losing their hair before the age of 21. By the age of 35, approximately 66 percent of men will have experienced some degree of hair loss. By the age of 50, approximately 85 percent of men will have significantly thinner hair."],
+			"context": [""]
+		},
+		{
+			"tag": "medicationsCause",
+			"patterns": ["Medications that may cause hair loss", "drugs associated with hair loss"],
+			"responses": ["Medication associated with hair loss are chemotherapy drugs, acne medications such as isotretinoin, antifungal drugs, blood pressure medications, cholesterol-lowering drugs, antidepressants."],
+			"context": [""]
+		},
+		{
+			"tag": "healthCondition",
+			"patterns": ["Does hair loss indicate health condition"],
+			"responses": ["Yes. Hair loss can also indicate a health condition, such as lupus, a fungal infection, or a thyroid problem."],
+			"context": [""]
+		},
+		{
+			"tag": "normalHairLoss",
+			"patterns": ["How much hair falling out is normal"],
+			"responses": ["According to the American Academy of Dermatologists, it's normal to lose anywhere from 50 to 100 strands of hair per day."],
+			"context": [""]
+		},
+		{
+			"tag": "food",
+			"patterns": ["What should we eat to reduce hair loss", "food to reduce hair loss"],
+			"responses": ["Type of food to reduce hair loss include fatty fish such as Tuna, Mackerel, Salmon, Herring have essential fatty acids, including omega-3s, and vitamin D. Eggs contain nutrients such as protein, biotin, selenium, and zinc. Leafy Greens such as Kale, Spinach, Collards contain vitamin A, iron, beta carotene, folate, and vitamin C. Fruits and nuts such as berries, grapes, oranges, walnuts, almonds, chia seeds."],
+			"context": [""]
+		},
+	{"tag": "Biotin",
+         "patterns": ["Vitamin B7", "Biotin", "Does Vitamin B7 treat baldness?", "Does biotin treat baldness?"],
+         "responses": ["Yes! Low levels of it can cause hair loss, skin rashes, and brittle nails."],
+         "context": [""]
+            },
+        {"tag": "LowBiotin",
+         "patterns": ["What cause low biotin?", "What cause low vitamin B7?"],
+         "responses": ["It can be caused if you're pregrant, breastfeeding or taking certain antibiotics or epilepsy drugs."],
+         "context": [""]
+            },
+        {"tag": "Iron",
+         "patterns": ["iron", "FE", "Does iron treat balness?", "Does FE treat baldness", "Does iron treat this?"],
+         "responses": ["Yes! Your red blood cells need iron to carry oxygen."],
+	 "context": [""]
+            },
+        {"tag": "takeIron",
+         "patterns": ["How to take more iron", "Where can I get iron", "What food rich of iron?","Way of getting iron"],
+         "responses": ["Red meat, grass-fed, leafy greens and legumes are rich of iron."],
+         "context": [""]
+            },
+        {"tag": "lessIron",
+             "patterns": ["What is the sympton of iron deficiency?", "Symptons of iron deficiency"],
+             "responses": ["Symptons include fatigue, pale skin and hair loss."],
+         "context": [""]
+            },
+        {"tag": "VitaminC",
+             "patterns": ["Vitamin C", "Does Vitamin C treat baldness?"],
+             "responses": ["Yes! Vitamin C is essential for your gut to absorb iron."],
+         "context": [""]
+            },
+        {"tag": "takeVitC",
+             "patterns": ["How to take more Vitamin C", "Where can I get Vitamin C", "What food rich of Vitamin C?","Way of getting Vitamin C"],
+             "responses": ["You can get Vitamin C from citrus fruit, leafy greens and bell peppers."],
+         "context": [""]
+            },
+        {"tag": "VitaminD",
+             "patterns": ["Vitamin D", "Does Vitamin D treat baldness?"],
+             "responses": ["Yes! Vitamin D is not only important for bones but also related to hair loss."],
+         "context": [""]
+            },
+        {"tag": "takeVitD",
+             "patterns": ["How to take more Vitamin D", "Where can I get Vitamin D", "What food rich of Vitamin D?","Way of getting Vitamin D"],
+             "responses": ["You can boost your levels of Vitamin D by eating fatty fish or drinkingf fortified milk. You can also ask your doctor to recommend a supplement."],
+         "context": [""]
+            },
+        {"tag": "takeZinc",
+             "patterns": ["How to take more Zinc", "Where can I get Zinc", "What food rich of Zinc?","Way of getting Zinc"],
+             "responses": ["You can get Vitamin C from shellfish, meat, beans, nuts and seeds."],
+             "context": [""]
+            },
+        {"tag": "Telogeneffluvium",
+         "patterns": ["What is Telogen effluvium"],
+         "responses": ["Yes! Low levels of it can cause hair loss, skin rashes, and brittle nails."],
+         "context": ["Telogen effluvium (TE) is a common form of hair loss characterized by diffuse hair shedding, resulting from the early entry of the hair into the telogen phase."]
+            },
+        {"tag": "FTE",
+         "patterns": ["What the factor or cause of telogen?"],
+         "responses": ["factors include systemic diseases, stressful events, drugs, nutritional deficiencies and major surgery."],
+         "context": [""]
+            },
+        {"tag": "WTE",
+         "patterns": ["Hair loss occurs in when"],
+         "responses": ["Hair loss occurs 3 months after the causing event and is usually self‐limiting, lasting for about 6 months.There is a delay because there are various phases of the hair cycle."],
+	   "context": [""]
+            },
+        {"tag": "Gphase",
+         "patterns": ["How many percentage in growing phase"],
+         "responses": ["Usually around 85% are in the growing phase"],
+         "context": [""]
+            },
+        {"tag": "Rphase",
+             "patterns": ["How many percentage in resting phase and shedding?"],
+             "responses": ["5% resting and around 10% are shedding"],
+         "context": [""]
+            },
+        {"tag": "PBaldnessS",
+             "patterns": ["How many percentage of baldness when stressful"],
+             "responses": ["When a person has a major stress event or shock, up to 50% of their hair can be prematurely pushed into the shedding phase."],
+         "context": [""]
+            },
+        {"tag": "STE",
+             "patterns": ["TE typically starts in when"],
+             "responses": ["TE typically starts 2 to 4 months after the inciting event and can last up to 6 months."],
+         "context": [""]
+            },
+        {"tag": "COVIDTE",
+             "patterns": ["What risk factors do patients who are experiencing telogen effluvium after COVID infection have?"],
+             "responses": ["Experts say it is hard to know why some patients recovering from COVID lose hair and others do not. It may be related to genetics. We know that hair loss happens to people who are predisposed, but we do not know who or why. There are specifics about one’s hair cycle and genetics that make them prone or predisposed to developing TE."],
+         "context": [""]
+            },
+        {"tag": "issueTE",
+             "patterns": ["What can be done to combat this issue?"],
+             "responses": ["Time. The majority of TE cases resolve within 6 months. For those who want to speed up the process, topical minoxidil applied once daily can be helpful, as long as the patient is not pregnant or nursing. "],
+         "context": [""]
+            },
+        {"tag": "preventTE",
+             "patterns": ["What i need to eat to prevent TE"],
+             "responses": ["Eat a well-balanced diet with adequate protein. A daily multivitamin can also help ensure the patient has the building blocks needed for optimal hair growth"],
+             "context": [""]
+            },
+        {"tag": "ExcercideTE",
+             "patterns": ["What i need to do excercise to prevent TE"],
+             "responses": ["Try to minimize stress by doing exercise, yoga or meditation."],
+             "context": [""]
+            },
+        {"tag": "StopHL",
+             "patterns": ["How can i stop hair loss?"],
+             "responses": ["Wondering how to stop hair loss before it goes any further? While there's no cure for male pattern baldness, minoxidil and finasteride provide two very safe and effective ways to help prevent further hair loss."],
+             "context": [""]
+            },
+        {"tag": "SummerHL",
+             "patterns": ["Is summer hair loss is real things?"],
+             "responses": ["Yes, Although it may feel like your head is on fire after hours hanging out at the beach, sustained exposure to sunshine is not a direct cause of hair loss. However, Dr. Antonella Tosti, hair loss expert and Keeps medical advisor, notes that if you notice your hair getting lighter during the summer, it’s a sign of damage that’ll likely result in your hair becoming dry."],
+             "context": [""]
+            },
+        {"tag": "PSummerHL",
+             "patterns": ["How dp prevent summer hair loss"],
+             "responses": ["Just because that blazing hot sun doesn’t cause hair loss, doesn’t mean it’s good for you. Be sure to always apply SPF—it’s your skin’s best friend—and add a hat up top if you want some extra protection."],
+             "context": [""]
+            },
+        {"tag": "CSbaldness",
+             "patterns": ["Is Chlorine and salt water leads to baldness?"],
+             "responses": ["Although excess chlorine and salt water may dry out your hair for a few days, neither of these things cause hair to fall out. However, if you’re worried about the texture of your hair after spending time in the pool or ocean, check out these research-backed tips to get your hair back to peak health."],
+             "context": [""]
+            },
+        {"tag": "TCSbaldness",
+             "patterns": ["How do i prevent Chlorine and salt water make me hair loss"],
+             "responses": ["Before and after swimming, condition your hair to maintain its moisture. Tosti recommends rinsing your hair with tap water to reduce how many chemicals (such as chlorine) are absorbed."],
+             "context": [""]
+            },
+        {"tag": "HairFallingDown1",
+         "patterns": ["Why Genetics make my ahir falling down"],
+         "responses": ["Genetics play the largest role in how susceptible you are to androgenetic alopecia (also known as male pattern baldness)"],
+         "context": [""]
+            },
+        {"tag": "MHairGrow",
+        "patterns": ["How can i make my hair grow faster?"],
+        "responses": ["Growth speed is genetically determined, but nutrition from the inside is important. believe healthy and beautiful hair grows from a healthy scalp, and an essential oils scalp treatment can really help"],
+        "context": [""]
+           },
+        {"tag": "BestWay",
+        "patterns": ["What is the best way to prevent heat damage?"],
+        "responses": ["Heat-protecting sprays are the best way to protect hair from damage"],
+        "context": [""]
+           },
+        {"tag": "WashHairQ",
+        "patterns": ["How often should I wash my hair?"],
+        "responses": ["Every two-three days. Washing every day can strip hair of its natural oils"],
+        "context": [""]
+           },
+        {"tag": "HairCutQ",
+        "patterns": ["How often should I get my hair cut?"],
+        "responses": ["Aim to get a trim or cut every month-and-a-half"],
+        "context": [""]
+           },
+        {"tag": "reducefrizzQ",
+        "patterns": ["What is the most effective way to reduce frizz?"],
+        "responses": ["Invest in a good nourishing treatment. Let hair dry naturally, but if you use a hairdryer, avoid touching it with the nozzle as direct heat promotes frizziness."],
+        "context": [""]
+            },
+        {"tag": "HTUC",
+        "patterns": ["How to use conditioner?"],
+        "responses": ["Traditionally, conditioner is applied every time after shampooing and rinsing the hair. To use a conditioner, you need to wet your hair, lather the scalp with shampoo while massaging it gently into the scalp and then rinse out the product. "],
+        "context": [""]
+            },
+        {"tag": "WDTSGGO",
+        "patterns": ["Why does the scalp get greasy often?"],
+        "responses": ["Sometimes the hair becomes too greasy over a period of time because of the oils secreted from the scalp, some people produce more oils than others."],
+        "context": [""]
+           },
+        {"tag": "HWAMHCPD",
+        "patterns": ["How Women's and Men's Hair Care Products Differ?"],
+        "responses": ["two main characteristic features to mention are that male skin is thicker and ages slower."],
+        "context": [""]
+           },
+        {"tag": "Zinc",
+             "patterns": ["Vitamin D", "Does Vitamin D treat baldness?"],
+             "responses": ["Zinc can play a key role in making proteins in your hair and other cells"],
+             "context": [""]
+            },
+        {"tag": "ExcessVit",
+             "patterns": ["Can excess vitamins cause baldness?","Too much vitamin", "What happens if I take too much vitamins?", "Too much supplements"],
+             "responses": ["Overdoing vitamins and nutritions supplements can cause baldness. Taking too much of vitamin A can also cause hair loss."],
+             "context": [""]
+            },
+        {"tag": "hairLossVit",
+             "patterns": ["What vitamins cause hair loss?", "What vitamins should take less?"],
+             "responses": ["Excess in Selenium, Vitamin A, Zinc and Vitamin E will lead to hair loss."],
+             "context": [""]
+            },
+        {"tag": "growBack",
+             "patterns": ["Can balding hair grow back?", "Can my hair grow back?","Can hair grow back after balding?", "Grow back"],
+             "responses": ["Spot baldness, or alopecia areata, makes your hair fall out in smooth, round patches, but it usually grows back."],
+             "context": [""]
+            },
+        {"tag": "disease",
+             "patterns": ["What disease has the symptons of hair loss?"],
+             "responses": ["Several health conditions, including thyroid disease and iron deficiency anemia, can cause hair loss."],
+             "context": [""]
+            },
+        {"tag": "doctorType",
+             "patterns": ["What doctor should I consult", "Baldness doctor"],
+             "responses": ["If you are experiencing sudden or unexplained hair loss, it is best to visit a dermatologist."],
+             "context": [""]
+            },
+        {"tag": "phases",
+         "patterns": ["What phases are there in hair growth?", "How hair grow?", "How many phases are there in hair growth?","Phases of hair growth"],
+         "responses": ["Human hair naturally grows in three phases: anagen, catagen, and telogen. Anagen is the active or growing phase. Catagen is a fairly short phase of the natural hair cycle during which hairs begin to break down. Telogen is the resting phase. The hairs that are shed daily are often in the resting or late phase in the hair cycle."],
+         "context": [""]
+            },
+        {"tag": "tractionAlopecia",
+        "patterns": ["Tight hairstyle", "Does tight hairstyle lead to baldness?"],
+        "responses": ["Tight hairstyle lead to traction alopecia. Traction alopecia refers to a small or localized hair loss area caused by repetitive or persistent pulling or force on hair roots."],
+        "context": [""]
+           },
+        {"tag": "HairLife",
+        "patterns": ["Life of hair", "How long the hairs live?"],
+        "responses": ["Under normal conditions, scalp hairs live for about three years. This period is referred to as the anagen, or growing, phase. They subsequently enter the telogen, or resting, phase."],
+        "context": [""]
+           },
+        {"tag": "Shampoo",
+        "patterns": ["Shampoo", "Constant shampooing", "Effect of shampoo", "Does shampoo lead to balness?"],
+        "responses": ["Shampooing does not accelerate hair loss; it just removes the hairs that were ready to fall out anyway."],
+        "context": [""]
+           },
+        {"tag": "HairColoring",
+        "patterns": ["Hair coloring", "Hair colouring", "Chemicals", "Conditional","Effect of conditional", "Does hair coloring lead to baldness?"],
+        "responses": ["Coloring, perming, and conditioning the hair do not usually cause hair loss. Burns or severe processing may cause hair loss and breakage."],
+        "context": [""]
+           },
+	{"tag": "Age",
+             "patterns": ["Old", "Old Age"],
+             "responses": ["Yes! As you age, hair lost naturally starts due to the hair follicles stop growing."],
+             "context": [""]
+            },
+        {"tag": "Alopecia areata",
+             "patterns": ["Disease that affects hair growth", "are there any diseases"],
+             "responses": ["Yes, one such example is the Alopecia Areata, it causes hair lost when the body's immune system attacks the hair follicles."],
+             "context": [""]
+            },
+        {"tag": "Cancer",
+             "patterns": ["cancer", "chemotherapy"],
+             "responses": ["Yes, chemotherapy makes the patient lose all or most of the hair during the beginning of treatment"],
+	           "context": [""]
+            },
+        {"tag": "Stress",
+             "patterns": ["Stressed out", "Feeling stressed", "aggitated"],
+          "responses": [ "Stress can push hair follicles into a ìrestingî phase so that they don't produce new hair strands"],
+             "context": [""]
+            },
+        {"tag": "pregnancy",
+             "patterns": ["Pregnant", "had a baby", "gave birth"],
+          "responses": [ "While not especially common, hormone changes or certain health conditions can lead to hair lost"],
+             "context": [""]
+            },
+        {"tag": "Fever",
+             "patterns": ["Had a cold", "Fever"],
+             "responses": ["Yes! Temporary hair lost may occur after recovering from a fever."],
+             "context": [""]
+            },
+        {"tag": "Thyroid Issues",
+             "patterns": ["Thyroid", "hypothyroidism", "thyroidism"],
+             "responses": ["These diseases may lead to hormonal imbalance, which causes hair lost"],
+             "context": [""]
+            },
+        {"tag": "Vitamin A",
+             "patterns": ["Vitamin A", "dairy products", "liver", "fish", "fortified cereal, retinoids"],
+          "responses": [ "Yes! Excessive Vitamin A can cause hair loss as well" ],
+             "context": [""]
+            },
+        {"tag": "medication",
+             "patterns": ["NSAIDs", "Calcium channel blockers"],
+             "responses": ["Some of these medication may cause hair lost as a side effect."],
+             "context": [""]
+            },
+        {"tag": "Depression",
+             "patterns": ["Depression", "Drugs for depression"],
+             "responses": ["Some drugs for curing depression causes hair lost, not only that but depression itself causes hair lost due to stress."],
+             "context": [""]
+            },
+        {"tag": "trauma",
+             "patterns": ["physical trauma", "mental stress"],
+          "responses": [ "When your body is under serious physical stress, the natural cycle of hair growth and resting can be disrupted, resulting in hair loss, often in the form of thinning hair" ],
+             "context": [""]
+            },
+        {"tag": "emotional trauma",
+             "patterns": ["sad","impactful", "issues in life", "bankrupt","divorce"],
+          "responses": [ "Significant emotional stress can also disrupt the normal cycle of hair growth." ],
+             "context": [""]
+            },
+        {"tag": "Dieting",
+             "patterns": ["Diet", "Eat less","lacking of food"],
+          "responses": [ "Poor nutrition or following a severely restrictive crash or fad diet can lead to all kinds of nutrient deficiencies, which in turn can result in hair loss, from thinning hair to patches of baldness." ],
+             "context": [""]
+            },
+        {"tag": "hair styling",
+             "patterns": ["Blow-drying", "hairdo","heated styling tools", "Pulling on hair"],
+             "responses": ["Vigorous external hair actions can cause to hair loss due to the damage on the scalp and other parts of the head."],
+             "context": [""]
+            },
+        {"tag": "infections",
+             "patterns": ["syphilis","infections and illneses"],
+             "responses": ["Certain kinds of infections can lead to hair loss, therfore it is important to seek medical help."],
+             "context": [""]
+            },
+        {"tag": "Diabetes",
+             "patterns": ["Diabetes", "autoimmune disease"],
+             "responses": ["Yes, Diabetes may results in hair loss, but this can be aided with correct medicaitons and treatment."],
+             "context": [""]
+            },
+        {"tag": "Lupus",
+             "patterns": [ "lupus", "autoimmune disease"],
+             "responses": ["Yes, autoimmune diseases, such as Lupus, have a track record of resulting in hair loss."],
+             "context": [""]
+            },
+        {"tag": "Covid",
+             "patterns": ["Does Covid cause hair loss?"],
+             "responses": ["Yes, one of Covid symptoms is fever, which causes temporary hair loss during recovery."],
+             "context": [""]
+           },
+        {"tag": "Growingback",
+             "patterns": ["Can hair grow back under normal circumstances?"],
+          "responses": [ "When the cause of your hair shedding is due to a fever, illness, or stress, hair tends to return to normal on its own" ],
+             "context": [""]
+           },
+        {"tag": "Psoriasis",
+             "patterns": ["plaque psoriasis","scalp psoriasis"],
+          "responses": [ "Yes it leads to hair loss but tends to regrow once the scalp psoriasis clears, but this takes time" ],
+             "context": [""]
+           },
+        {"tag": "STD",
+             "patterns": ["STD","STI","HIV","AIDS"],
+          "responses": [ "Yes, STDs' can cause patchy hair loss on the scalp, eyebrows, beard, and elsewhere" ],
+             "context": [""]
+           }
+        
+
+   ]
+}
